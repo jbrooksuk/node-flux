@@ -1,0 +1,23 @@
+{
+	"name": "node-flux",
+	"version": "0.0.1",
+	"description": "Node.js port of Flux http://github.com/selvinortiz/flux",
+	"main": "./lib/flux.js",
+	"scripts": {
+		"test": "mocha --require should --reporter spec"
+	},
+	"repository": "git://github.com/jbrooksuk/node-flux.git",
+	"keywords": [
+		"flux",
+		"regex",
+		"builder",
+		"regular",
+		"expressions"
+	],
+	"devDependencies": {
+		"mocha": "*",
+		"should": "*"
+	},
+	"author": "James Brooks <jbrooksuk@me.com>",
+	"readmeFilename": "README.md"
+}
