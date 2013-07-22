@@ -12,7 +12,7 @@ describe('Flux', function() {
 	});
 
 	it('should build a regular expression', function(done) {
-		regex.startOfLine().then('http').maybe('s').then('://').maybe('www.').anythingBut('.').either('.in', '.co', '.com').inAnyCase().endOfLine();
+		regex.startOfLine().then('http').maybe('s').then('://').maybe('www.').anythingBut('.').either('.in', '.co', '.com').ignoreCase().endOfLine();
 		regex.compile().should.equal(matchRegex);
 		done();
 	});
