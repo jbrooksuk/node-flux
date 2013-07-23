@@ -1,6 +1,6 @@
 {
 	"name": "node-flux",
-	"version": "0.1.0",
+	"version": "0.2.0",
 	"description": "Node.js port of Flux http://github.com/selvinortiz/flux",
 	"main": "./lib/flux.js",
 	"scripts": {

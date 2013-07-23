@@ -10,6 +10,12 @@ More examples will be added as the syntax evolves or changes.
 
 # Changelog
 
+## 0.2.0
+- Added `addSeed`, `removeSeed`
+- Seeds can be passed through as final arguments in `match` and `replace`
+- Added `toString()` which will compile your pattern with modifiers
+- Added new tests
+
 ## 0.1.0
 - Changed version to minor version 1 as the syntax is working and passes all examples used by the the [Flux.php](http://github.com/selvinortiz/flux)
 
