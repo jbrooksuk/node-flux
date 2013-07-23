@@ -17,6 +17,11 @@ describe('Flux', function() {
 		done();
 	});
 
+	it('should return the first segment', function(done) {
+		regex.getSegment().should.equal('(http)');
+		done();
+	});
+
 	it('should match http://selvinortiz.com', function(done) {
 		var testMatch = regex.match(testSubject);
 		testMatch.should.be.true;
