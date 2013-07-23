@@ -15,6 +15,7 @@ More examples will be added as the syntax evolves or changes.
 - Seeds can be passed through as final arguments in `match` and `replace`
 - Added `toString()` which will compile your pattern with modifiers
 - Added new tests
+- Added `getSegment`. When passed an integer will return that position in the pattern. Default is `0`.
 
 ## 0.1.0
 - Changed version to minor version 1 as the syntax is working and passes all examples used by the the [Flux.php](http://github.com/selvinortiz/flux)
