@@ -30,4 +30,13 @@ describe('Flux', function() {
 
 		done();
 	});
+
+	it('should add a global modifier', function(done) {
+		var testGlobal = new Flux();
+		testGlobal.global();
+
+		testGlobal.modifiers.should.include('g');
+
+		done();
+	});
 });
