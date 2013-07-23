@@ -10,6 +10,10 @@ More examples will be added as the syntax evolves or changes.
 
 # Changelog
 
+## 0.0.4
+- Added `global` modifier (g)
+- Added new test for `global` modifier
+
 ## 0.0.3
 - Added examples `usdate.js` and `usphone.js`
 - Commented code a little
