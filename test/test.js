@@ -31,6 +31,11 @@ describe('Flux', function() {
 		done();
 	});
 
+	it('should return a string representation with .toString()', function(done) {
+		regex.toString().should.equal(matchRegex + '/i');
+		done();
+	});
+
 	it('should add a global modifier', function(done) {
 		var testGlobal = new Flux();
 		testGlobal.global();
