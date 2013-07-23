@@ -1,0 +1,141 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/Cellar/node/0.10.0/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'publish' ]
+2 info using npm@1.2.14
+3 info using node@v0.10.0
+4 verbose publish [ '.' ]
+5 verbose read json /Users/jbrooksuk/Code/Flux/package.json
+6 verbose cache add [ '.', null ]
+7 verbose cache add name=undefined spec="." args=[".",null]
+8 verbose parsed url { protocol: null,
+8 verbose parsed url   slashes: null,
+8 verbose parsed url   auth: null,
+8 verbose parsed url   host: null,
+8 verbose parsed url   port: null,
+8 verbose parsed url   hostname: null,
+8 verbose parsed url   hash: null,
+8 verbose parsed url   search: null,
+8 verbose parsed url   query: null,
+8 verbose parsed url   pathname: '.',
+8 verbose parsed url   path: '.',
+8 verbose parsed url   href: '.' }
+9 silly lockFile 3a52ce78- .
+10 verbose lock . /Users/jbrooksuk/.npm/3a52ce78-.lock
+11 verbose read json package.json
+12 verbose tar pack [ '/var/folders/55/q9fcr77x755_1pw4_3bkfxh40000gn/T/npm-1220/1374593373244-0.7449044538661838/tmp.tgz',
+12 verbose tar pack   '.' ]
+13 verbose tarball /var/folders/55/q9fcr77x755_1pw4_3bkfxh40000gn/T/npm-1220/1374593373244-0.7449044538661838/tmp.tgz
+14 verbose folder .
+15 info prepublish node-flux@0.2.0
+16 silly lockFile 3a52ce78- .
+17 verbose lock . /Users/jbrooksuk/.npm/3a52ce78-.lock
+18 silly lockFile 5841c2ac-73244-0-7449044538661838-tmp-tgz /var/folders/55/q9fcr77x755_1pw4_3bkfxh40000gn/T/npm-1220/1374593373244-0.7449044538661838/tmp.tgz
+19 verbose lock /var/folders/55/q9fcr77x755_1pw4_3bkfxh40000gn/T/npm-1220/1374593373244-0.7449044538661838/tmp.tgz /Users/jbrooksuk/.npm/5841c2ac-73244-0-7449044538661838-tmp-tgz.lock
+20 silly lockFile 3a52ce78- .
+21 silly lockFile 3a52ce78- .
+22 silly lockFile 5841c2ac-73244-0-7449044538661838-tmp-tgz /var/folders/55/q9fcr77x755_1pw4_3bkfxh40000gn/T/npm-1220/1374593373244-0.7449044538661838/tmp.tgz
+23 silly lockFile 5841c2ac-73244-0-7449044538661838-tmp-tgz /var/folders/55/q9fcr77x755_1pw4_3bkfxh40000gn/T/npm-1220/1374593373244-0.7449044538661838/tmp.tgz
+24 verbose tar unpack /var/folders/55/q9fcr77x755_1pw4_3bkfxh40000gn/T/npm-1220/1374593373244-0.7449044538661838/tmp.tgz
+25 silly lockFile 9a552825-73244-0-7449044538661838-package /var/folders/55/q9fcr77x755_1pw4_3bkfxh40000gn/T/npm-1220/1374593373244-0.7449044538661838/package
+26 verbose lock /var/folders/55/q9fcr77x755_1pw4_3bkfxh40000gn/T/npm-1220/1374593373244-0.7449044538661838/package /Users/jbrooksuk/.npm/9a552825-73244-0-7449044538661838-package.lock
+27 silly lockFile 5841c2ac-73244-0-7449044538661838-tmp-tgz /var/folders/55/q9fcr77x755_1pw4_3bkfxh40000gn/T/npm-1220/1374593373244-0.7449044538661838/tmp.tgz
+28 verbose lock /var/folders/55/q9fcr77x755_1pw4_3bkfxh40000gn/T/npm-1220/1374593373244-0.7449044538661838/tmp.tgz /Users/jbrooksuk/.npm/5841c2ac-73244-0-7449044538661838-tmp-tgz.lock
+29 silly gunzTarPerm modes [ '755', '644' ]
+30 silly gunzTarPerm extractEntry package.json
+31 silly gunzTarPerm extractEntry .npmignore
+32 silly gunzTarPerm extractEntry README.md
+33 silly gunzTarPerm extractEntry index.js
+34 silly gunzTarPerm extractEntry examples/usdate.js
+35 silly gunzTarPerm extractEntry examples/usphone.js
+36 silly gunzTarPerm extractEntry lib/flux.js
+37 silly gunzTarPerm extractEntry test/test.js
+38 verbose read json /var/folders/55/q9fcr77x755_1pw4_3bkfxh40000gn/T/npm-1220/1374593373244-0.7449044538661838/package/package.json
+39 silly lockFile 9a552825-73244-0-7449044538661838-package /var/folders/55/q9fcr77x755_1pw4_3bkfxh40000gn/T/npm-1220/1374593373244-0.7449044538661838/package
+40 silly lockFile 9a552825-73244-0-7449044538661838-package /var/folders/55/q9fcr77x755_1pw4_3bkfxh40000gn/T/npm-1220/1374593373244-0.7449044538661838/package
+41 silly lockFile 5841c2ac-73244-0-7449044538661838-tmp-tgz /var/folders/55/q9fcr77x755_1pw4_3bkfxh40000gn/T/npm-1220/1374593373244-0.7449044538661838/tmp.tgz
+42 silly lockFile 5841c2ac-73244-0-7449044538661838-tmp-tgz /var/folders/55/q9fcr77x755_1pw4_3bkfxh40000gn/T/npm-1220/1374593373244-0.7449044538661838/tmp.tgz
+43 verbose from cache /var/folders/55/q9fcr77x755_1pw4_3bkfxh40000gn/T/npm-1220/1374593373244-0.7449044538661838/package/package.json
+44 verbose tar pack [ '/Users/jbrooksuk/.npm/node-flux/0.2.0/package.tgz',
+44 verbose tar pack   '/var/folders/55/q9fcr77x755_1pw4_3bkfxh40000gn/T/npm-1220/1374593373244-0.7449044538661838/package' ]
+45 verbose tarball /Users/jbrooksuk/.npm/node-flux/0.2.0/package.tgz
+46 verbose folder /var/folders/55/q9fcr77x755_1pw4_3bkfxh40000gn/T/npm-1220/1374593373244-0.7449044538661838/package
+47 silly lockFile 9a552825-73244-0-7449044538661838-package /var/folders/55/q9fcr77x755_1pw4_3bkfxh40000gn/T/npm-1220/1374593373244-0.7449044538661838/package
+48 verbose lock /var/folders/55/q9fcr77x755_1pw4_3bkfxh40000gn/T/npm-1220/1374593373244-0.7449044538661838/package /Users/jbrooksuk/.npm/9a552825-73244-0-7449044538661838-package.lock
+49 silly lockFile e475fc9e--npm-node-flux-0-2-0-package-tgz /Users/jbrooksuk/.npm/node-flux/0.2.0/package.tgz
+50 verbose lock /Users/jbrooksuk/.npm/node-flux/0.2.0/package.tgz /Users/jbrooksuk/.npm/e475fc9e--npm-node-flux-0-2-0-package-tgz.lock
+51 silly lockFile 9a552825-73244-0-7449044538661838-package /var/folders/55/q9fcr77x755_1pw4_3bkfxh40000gn/T/npm-1220/1374593373244-0.7449044538661838/package
+52 silly lockFile 9a552825-73244-0-7449044538661838-package /var/folders/55/q9fcr77x755_1pw4_3bkfxh40000gn/T/npm-1220/1374593373244-0.7449044538661838/package
+53 silly lockFile e475fc9e--npm-node-flux-0-2-0-package-tgz /Users/jbrooksuk/.npm/node-flux/0.2.0/package.tgz
+54 silly lockFile e475fc9e--npm-node-flux-0-2-0-package-tgz /Users/jbrooksuk/.npm/node-flux/0.2.0/package.tgz
+55 silly lockFile 4006912f-ksuk-npm-node-flux-0-2-0-package /Users/jbrooksuk/.npm/node-flux/0.2.0/package
+56 verbose lock /Users/jbrooksuk/.npm/node-flux/0.2.0/package /Users/jbrooksuk/.npm/4006912f-ksuk-npm-node-flux-0-2-0-package.lock
+57 silly lockFile 4006912f-ksuk-npm-node-flux-0-2-0-package /Users/jbrooksuk/.npm/node-flux/0.2.0/package
+58 silly lockFile 4006912f-ksuk-npm-node-flux-0-2-0-package /Users/jbrooksuk/.npm/node-flux/0.2.0/package
+59 verbose tar unpack /Users/jbrooksuk/.npm/node-flux/0.2.0/package.tgz
+60 silly lockFile 4006912f-ksuk-npm-node-flux-0-2-0-package /Users/jbrooksuk/.npm/node-flux/0.2.0/package
+61 verbose lock /Users/jbrooksuk/.npm/node-flux/0.2.0/package /Users/jbrooksuk/.npm/4006912f-ksuk-npm-node-flux-0-2-0-package.lock
+62 silly lockFile e475fc9e--npm-node-flux-0-2-0-package-tgz /Users/jbrooksuk/.npm/node-flux/0.2.0/package.tgz
+63 verbose lock /Users/jbrooksuk/.npm/node-flux/0.2.0/package.tgz /Users/jbrooksuk/.npm/e475fc9e--npm-node-flux-0-2-0-package-tgz.lock
+64 silly gunzTarPerm modes [ '755', '644' ]
+65 silly gunzTarPerm extractEntry package.json
+66 silly gunzTarPerm extractEntry .npmignore
+67 silly gunzTarPerm extractEntry README.md
+68 silly gunzTarPerm extractEntry index.js
+69 silly gunzTarPerm extractEntry examples/usdate.js
+70 silly gunzTarPerm extractEntry examples/usphone.js
+71 silly gunzTarPerm extractEntry lib/flux.js
+72 silly gunzTarPerm extractEntry test/test.js
+73 verbose read json /Users/jbrooksuk/.npm/node-flux/0.2.0/package/package.json
+74 silly lockFile 4006912f-ksuk-npm-node-flux-0-2-0-package /Users/jbrooksuk/.npm/node-flux/0.2.0/package
+75 silly lockFile 4006912f-ksuk-npm-node-flux-0-2-0-package /Users/jbrooksuk/.npm/node-flux/0.2.0/package
+76 silly lockFile e475fc9e--npm-node-flux-0-2-0-package-tgz /Users/jbrooksuk/.npm/node-flux/0.2.0/package.tgz
+77 silly lockFile e475fc9e--npm-node-flux-0-2-0-package-tgz /Users/jbrooksuk/.npm/node-flux/0.2.0/package.tgz
+78 silly shasum updated bytes 4287
+79 info shasum f023f4432ad1088186e50bd29e5aec2d5220f8ec
+79 info shasum /Users/jbrooksuk/.npm/node-flux/0.2.0/package.tgz
+80 verbose from cache /Users/jbrooksuk/.npm/node-flux/0.2.0/package/package.json
+81 verbose chmod /Users/jbrooksuk/.npm/node-flux/0.2.0/package.tgz 644
+82 verbose chown /Users/jbrooksuk/.npm/node-flux/0.2.0/package.tgz [ 501, 20 ]
+83 silly lockFile 3a52ce78- .
+84 silly publish { name: 'node-flux',
+84 silly publish   version: '0.2.0',
+84 silly publish   description: 'Node.js port of Flux http://github.com/selvinortiz/flux',
+84 silly publish   main: './lib/flux.js',
+84 silly publish   scripts: { test: 'mocha --require should --reporter spec' },
+84 silly publish   repository: { type: 'git', url: 'git://github.com/jbrooksuk/node-flux.git' },
+84 silly publish   keywords: [ 'flux', 'regex', 'builder', 'regular', 'expressions' ],
+84 silly publish   devDependencies: { mocha: '*', should: '*' },
+84 silly publish   author: { name: 'James Brooks', email: 'jbrooksuk@me.com' },
+84 silly publish   readmeFilename: 'README.md',
+84 silly publish   readme: '# FLUX (Fluent Regular Expressions)\nnode-flux is a Node.js port of [Selvin Ortiz\' Flux.php](http://github.com/selvinortiz/flux)\n\nCurrently node-flux is Node.js compatible as it makes use of the `util` library. I\'m looking to change this in the near future to be usable in the browser and on the server.\n\n# Examples\nExamples are provided in the `/examples` directory. You can test them with `node examples/usdate.js` or `node examples/usphone.js`\n\nMore examples will be added as the syntax evolves or changes.\n\n# Changelog\n\n## 0.2.0\n- Added `addSeed`, `removeSeed`\n- Seeds can be passed through as final arguments in `match` and `replace`\n- Added `toString()` which will compile your pattern with modifiers\n- Added new tests\n- Added `getSegment`. When passed an integer will return that position in the pattern. Default is `0`.\n\n## 0.1.0\n- Changed version to minor version 1 as the syntax is working and passes all examples used by the the [Flux.php](http://github.com/selvinortiz/flux)\n\n## 0.0.4\n- Added `global` modifier (g)\n- Added new test for `global` modifier\n\n## 0.0.3\n- Added examples `usdate.js` and `usphone.js`\n- Commented code a little\n\n## 0.0.2\n- Adds the `letters` method\n- Renamed `numbers` to `digits`\n- Adds support for quantifiers in `digits`\n- Adds `ignoreCase` as an alias for `inAnyCase`\n\n# License\nMIT - [http://jbrooksuk.mit-license.org](http://jbrooksuk.mit-license.org)',
+84 silly publish   _id: 'node-flux@0.2.0',
+84 silly publish   dist: { shasum: 'f023f4432ad1088186e50bd29e5aec2d5220f8ec' },
+84 silly publish   _from: '.' }
+85 verbose url raw node-flux
+86 verbose url resolving [ 'https://registry.npmjs.org/', './node-flux' ]
+87 verbose url resolved https://registry.npmjs.org/node-flux
+88 info trying registry request attempt 1 at 16:29:44
+89 http PUT https://registry.npmjs.org/node-flux
+90 http 409 https://registry.npmjs.org/node-flux
+91 verbose url raw node-flux
+92 verbose url resolving [ 'https://registry.npmjs.org/', './node-flux' ]
+93 verbose url resolved https://registry.npmjs.org/node-flux
+94 info trying registry request attempt 1 at 16:29:46
+95 http GET https://registry.npmjs.org/node-flux
+96 http 200 https://registry.npmjs.org/node-flux
+97 error publish fail Cannot publish over existing version.
+97 error publish fail Update the 'version' field in package.json and try again.
+97 error publish fail
+97 error publish fail If the previous version was published in error, see:
+97 error publish fail     npm help unpublish
+97 error publish fail
+97 error publish fail To automatically increment version numbers, see:
+97 error publish fail     npm help version
+98 error System Darwin 12.4.0
+99 error command "/usr/local/Cellar/node/0.10.0/bin/node" "/usr/local/bin/npm" "publish"
+100 error cwd /Users/jbrooksuk/Code/Flux
+101 error node -v v0.10.0
+102 error npm -v 1.2.14
+103 error code EPUBLISHCONFLICT
+104 verbose exit [ 1, true ]
