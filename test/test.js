@@ -44,4 +44,11 @@ describe('Flux', function() {
 
 		done();
 	});
+
+	it('should be able to be passed a custom regex - seed', function(done) {
+		var testSeed = new Flux();
+		testSeed.match(testSubject, '/(.*)/');
+		testSeed.seed.should.not.equal.false;
+		done();
+	});
 });
