@@ -10,6 +10,9 @@ More examples will be added as the syntax evolves or changes.
 
 # Changelog
 
+## 0.1.0
+- Changed version to minor version 1 as the syntax is working and passes all examples used by the the [Flux.php](http://github.com/selvinortiz/flux)
+
 ## 0.0.4
 - Added `global` modifier (g)
 - Added new test for `global` modifier
