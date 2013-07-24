@@ -3,7 +3,7 @@ var Flux = require('..'),
 
 describe('Flux', function() {
 	var regex = new Flux();
-	var matchRegex = '^(http)(s)?(\\:\\/\\\/)(www\\.)?([^\\.]*)(.in|.co|.com)$';
+	var matchRegex = '^(http)(s)?(\\:\\/\\\/)(www\\.)?([^\\.]*)(.co|.com)$';
 	var testSubject = 'http://selvinortiz.com';
 
 	it('should start empty', function(done) {
@@ -12,7 +12,7 @@ describe('Flux', function() {
 	});
 
 	it('should build a regular expression', function(done) {
-		regex.startOfLine().then('http').maybe('s').then('://').maybe('www.').anythingBut('.').either('.in', '.co', '.com').ignoreCase().endOfLine();
+		regex.startOfLine().find('http').maybe('s').then('://').maybe('www.').anythingBut('.').either('.co', '.com').ignoreCase().endOfLine();
 		regex.compile().should.equal(matchRegex);
 		done();
 	});
